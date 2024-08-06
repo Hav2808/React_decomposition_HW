@@ -1,0 +1,190 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.news-main-container {
+  display: flex;
+}
+
+.news-block {
+  width: 700px;
+  margin-left: 150px;
+}
+
+.title-container {
+  display: flex;
+  margin-left: 15px;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.news img {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.title:first-child {
+  font-weight: 700;
+}
+
+.currency-list {
+  display: flex;
+  margin-left: 50px;
+}
+
+.currency-card {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.ya-view img {
+  width: 140px;
+  height: 100px;
+}
+
+.ya-view h3,p {
+  margin: 0;
+  text-align: start;
+}
+
+.ya-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.ya-main-content {
+  display: flex;
+}
+
+.ya-content-list{
+  flex-direction: column;
+  width: 900px;
+}
+
+.search {
+  display: flex;
+  align-self: start;
+  width: 900px;
+}
+
+.search form input {
+  height: 30px;
+  width: 800px;
+}
+
+.slogan {
+  display: flex;
+  align-self: start;
+}
+
+.banner img {
+  width: 100%;
+  height: 170px;
+}
+
+.rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Выравнивание по левому краю */
+  gap: 10px; /* Промежуток между элементами */
+}
+.aside-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+  align-self: start;
+}
+
+.weather-card img {
+  width: 70px;
+  
+}
+
+.weather-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.aside-card {
+  margin-bottom: 5px;
+}
+
+.text-aside-element {
+  display: flex;
+}
+.text-aside-element p {
+  margin-left: 3px;
+}
+
+.text-aside-element:first-child {
+  font-weight: 700;
+}
+
+.bolt {
+  align-self: center;
+}
+
+.forecast {
+  align-self: center;
+}
+
+.exchange-rate {
+  color: rgb(7, 7, 7); /* Цвет для значения курса */
+  margin-left: 5px;
+}
+
+.change-rate {
+  color: rgb(146, 148, 146); /* Цвет для изменения курса */
+}

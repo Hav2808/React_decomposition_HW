@@ -1,0 +1,35 @@
+{
+    "titles": ["Сейчас в СМИ", "В Германии", " Рекомендуем"],
+    "listNews": [
+        {
+            "urlNews":"https://savelki.mos.ru/upload_local/resize_cache/6869986/9cdd8712c7aa24865af12cbfc2d28ccd/iblock/9f8/9f89d84206839a14ceb20bcda06c0996/291917.jpg", 
+            "textNews": "Новость 1 Новость 1 Новость 1 Новость 1"
+        },
+        {
+            "urlNews":"https://savelki.mos.ru/upload_local/resize_cache/6869986/9cdd8712c7aa24865af12cbfc2d28ccd/iblock/9f8/9f89d84206839a14ceb20bcda06c0996/291917.jpg", 
+            "textNews": "Новость 2 Новость 2 Новость 2 Новость 2"
+        },
+        {
+            "urlNews":"https://savelki.mos.ru/upload_local/resize_cache/6869986/9cdd8712c7aa24865af12cbfc2d28ccd/iblock/9f8/9f89d84206839a14ceb20bcda06c0996/291917.jpg", 
+            "textNews": "Новость 3 Новость 3 Новость 3 Новость 3"
+        }
+    ],
+    "date": "31 июля, среда 02 32",
+    "currencyList": [
+        {
+            "currencyName": "USD MOEX", 
+            "rate": "63,52",
+            "changeRate": "+0,09"
+        },
+        {
+            "currencyName": "EUR MOEX", 
+            "rate": "70,86",
+            "changeRate": "+0,14"
+        },
+        {
+            "currencyName": "НЕФТЬ", 
+            "rate": "64,90",
+            "changeRate": "+1,63%"
+        }
+    ]
+}
